@@ -19,9 +19,9 @@ Quick Installation Instructions
 
 If you have Python3 and Git installed and want to quickly install and run TruFont in a virtual environment, open a terminal and enter the following chain of commands as one line:
 
-```
+``
 python3 -m venv trufont-venv && source trufont-venv/bin/activate && cd trufont-venv && git clone https://github.com/trufont/trufont.git && cd trufont && pip install --upgrade -r requirements.txt && pip install --upgrade ufolib && pip install --editable . && trufont
-```
+``
 
 Detailed Installation Instructions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -133,5 +133,4 @@ Happy hacking with TruFont! :muscle:
    :target: https://travis-ci.org/trufont/trufont
    
 .. |trufont| image:: Lib/trufont/resources/app.ico
-   :align: middle
-   :width: 32
+   :align: center
