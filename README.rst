@@ -1,7 +1,7 @@
+|Build Status|
+
 TruFont
 =======
-
-|Build Status|
 
 `TruFont <https://trufont.github.io>`__ is a font-editing application
 written with Python3, ufoLib, defcon, and PyQt5.
