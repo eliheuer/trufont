@@ -18,7 +18,7 @@ If you have Python3 and Git installed and want to quickly install
 and run TruFont in a virtual environment, open a terminal and enter 
 the following chain of commands as one line:
 
-``python3 -m venv trufont-venv && source trufont-venv/bin/activate && cd trufont-venv && git clone https://github.com/trufont/trufont.git && cd trufont && pip install --upgrade -r requirements.txt && pip install --upgrade ufolib && pip install --editable . && trufont``
+``python3 -m venv trufont-venv && source trufont-venv/bin/activate && cd trufont-venv && git clone https://github.com/trufont/trufont.git && cd trufont && pip install --upgrade -r requirements.txt && pip install --editable . && trufont``
 
 Detailed Installation Instructions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -29,8 +29,8 @@ Detailed Installation Instructions
       ``brew install python3``
    -  Windows: Download installer from 
       `python.org/downloads <https://www.python.org/downloads/>`__
-   -  Linux: It's usually packaged with the OS.
-      Run ``python3 --version`` to see what you have installed. 
+   -  Linux: It's usually packaged with the OS,
+      run ``python3 --version`` to see what you have installed. 
 
 2. Install **Git 2.1** (or later):
 
@@ -38,8 +38,8 @@ Detailed Installation Instructions
       ``brew install git``
    -  Windows: Download installer from 
       `https://git-scm.com/download/win <https://git-scm.com/download/win>`__
-   -  Ubuntu/Debian Linux: Run: ``apt install git``
-   -  Arch Linux: Run: ``pacman -Syu git``
+   -  Ubuntu/Debian Linux, run: ``apt install git``
+   -  Arch Linux, run: ``pacman -Syu git``
 
 3. Set up a new Python **virtual environment**. Although this is not
    required, it's *highly recommended*, since TruFont has lots of
@@ -59,7 +59,7 @@ Detailed Installation Instructions
 
       -  OS X or Linux: ``source TRUFONT-VENV/bin/activate``
       -  Windows: ``TRUFONT-VENV\Scripts\activate.bat``
-      -  Fish shell: source TRUFONT-VENV/bin/activate.fish
+      -  Fish: ``source TRUFONT-VENV/bin/activate.fish``
 
       This temporarily adds the virtual environment's scripts folder to
       your console's `PATH`, so you can access `python`, `pip` and
