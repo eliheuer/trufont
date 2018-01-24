@@ -1,10 +1,13 @@
-
-|trufont|
- 
-|Build Status|
+.. image:: Lib/trufont/resources/app.ico
+    :width: 128px
+    :align: center
+    :height: 128px
+    :alt: TruFontLogo
 
 TruFont
 =======
+
+|Build Status|
 
 `TruFont <https://trufont.github.io>`__ is a font-editing application
 written with Python3, ufoLib, defcon and PyQt5.
@@ -35,7 +38,7 @@ Detailed Installation Instructions
    -  Linux: It's usually packaged with the OS.
       Run ``python3 --version`` to see what you have installed. 
 
-2. Install **Git**:
+2. Install **Git 2.1** (or later):
 
    -  OS X: Install using `Homebrew <http://brew.sh/>`__:
       ``brew install git``
@@ -50,18 +53,19 @@ Detailed Installation Instructions
    you installed globally.
 
    -  To create a new virtual environment, run the following command
-      (replace ``ENV_DIR`` with any name you want):
+      (replace ``TRUFONT-VENV`` with any name you want):
 
-      ``python3 -m venv ENV_DIR``
+      ``python3 -m venv TRUFONT-VENV``
 
-      This creates a new ``ENV_DIR`` folder. The ``bin`` subfolder 
+      This creates a new ``TRUFONT-VENV`` folder. The ``bin`` subfolder 
       (or ``Scripts`` if you are on Windows) contains a new ``python``
       executable, and the ``pip`` installer linked to that.
 
    -  Activate the newly created environment:
 
-      -  OS X or Linux: ``source ENV_DIR/bin/activate``
-      -  Windows: ``ENV_DIR\Scripts\activate.bat``
+      -  OS X or Linux: ``source TRUFONT-VENV/bin/activate``
+      -  Windows: ``TRUFONT-VENV\Scripts\activate.bat``
+      -  Fish shell: source TRUFONT-VENV/bin/activate.fish
 
       This temporarily adds the virtual environment's scripts folder to
       your console's `PATH`, so you can access `python`, `pip` and
@@ -71,6 +75,14 @@ Detailed Installation Instructions
    -  Run ``deactivate`` when you wish to exit the virtual environment.
       This restores the default system `PATH`.
 
+4. With the ``venv`` activated, clone the TruFont repository. You can put 
+   it whereever you like, but for this example we will just place it in 
+   ``TRUFONT-VENV``:
+   
+   ``
+   cd TRUFONT-VENV
+   git clone https://github.com/trufont/trufont.git
+   ``
 
 Contributing
 ~~~~~~~~~~~~
@@ -133,4 +145,7 @@ Happy hacking with TruFont! :muscle:
    :target: https://travis-ci.org/trufont/trufont
    
 .. |trufont| image:: Lib/trufont/resources/app.ico
-   :align: center
+    :width: 128px
+    :align: center
+    :height: 128px
+    :alt: TruFontLogo
