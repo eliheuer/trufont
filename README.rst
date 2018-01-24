@@ -1,9 +1,3 @@
-.. image:: Lib/trufont/resources/app.ico
-    :width: 128px
-    :align: center
-    :height: 128px
-    :alt: TruFontLogo
-
 TruFont
 =======
 
@@ -20,11 +14,11 @@ Getting started
 Quick Installation Instructions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you have Python3 and Git installed and want to quickly install and run TruFont in a virtual environment, open a terminal and enter the following chain of commands as one line:
+If you have Python3 and Git installed and want to quickly install 
+and run TruFont in a virtual environment, open a terminal and enter 
+the following chain of commands as one line:
 
-``
-python3 -m venv trufont-venv && source trufont-venv/bin/activate && cd trufont-venv && git clone https://github.com/trufont/trufont.git && cd trufont && pip install --upgrade -r requirements.txt && pip install --upgrade ufolib && pip install --editable . && trufont
-``
+``python3 -m venv trufont-venv && source trufont-venv/bin/activate && cd trufont-venv && git clone https://github.com/trufont/trufont.git && cd trufont && pip install --upgrade -r requirements.txt && pip install --upgrade ufolib && pip install --editable . && trufont``
 
 Detailed Installation Instructions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -83,6 +77,26 @@ Detailed Installation Instructions
    cd TRUFONT-VENV
    git clone https://github.com/trufont/trufont.git
    ``
+5. Move into the directory you just cloned from GitHub and run the following
+   command to install the requiered dependancies and TruFont:
+
+``pip install --upgrade -r requirements.txt && pip install --editable .``
+
+  If you get an error, look to see if it was caused my an outdated dependancy, 
+  then use pip to update to the latest version. For example, if ufoLib is 
+  causing an error, run:
+
+  ``pip install --upgrade ufolib``
+  
+6. Finally, run TruFont with:
+
+    ``trufont``
+   
+   Now trufont in installed! This installation method makes TruFont editable,
+   so if you make a change to the source code, that change will take effect 
+   next time you launch TruFont without needing to reinstall. 
+   
+   Happy hacking with TruFont! :muscle:
 
 Contributing
 ~~~~~~~~~~~~
