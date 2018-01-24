@@ -1,3 +1,5 @@
+.. image:: Lib/trufont/resources/app.ico
+
 |Build Status|
 
 TruFont
@@ -9,16 +11,19 @@ written with Python3, ufoLib, defcon and PyQt5.
 .. image:: Lib/trufont/resources/screenshot.png
 
 Getting started
-~~~~~~~~~~~~~~~
+---------------
 
-Quick install:
+Quick Installation Instructions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To quickly install and run TruFont, open a terminal and enter the following string of commands as one line:
+If you have Python3 and Git installed and want to quickly install and run TruFont in a virtual environment, open a terminal and enter the following chain of commands as one line:
+
 ```
 python3 -m venv trufont-venv && source trufont-venv/bin/activate && cd trufont-venv && git clone https://github.com/trufont/trufont.git && cd trufont && pip install --upgrade -r requirements.txt && pip install --upgrade ufolib && pip install --editable . && trufont
 ```
-Detailed install:
 
+Detailed Installation Instructions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Install **Python 3.5** (or later):
 
@@ -27,8 +32,18 @@ Detailed install:
    -  Windows: Download installer from 
       `python.org/downloads <https://www.python.org/downloads/>`__
    -  Linux: It's usually packaged with the OS.
+      Run ``python3 --version`` to see what you have installed. 
 
-2. Set up a new Python **virtual environment**. Although this is not
+2. Install **Git**:
+
+   -  OS X: Install using `Homebrew <http://brew.sh/>`__:
+      ``brew install git``
+   -  Windows: Download installer from 
+      `https://git-scm.com/download/win <https://git-scm.com/download/win>`__
+   -  Ubuntu/Debian Linux: Run: ``apt install git``
+   -  Arch Linux: Run: ``pacman -Syu git``
+
+3. Set up a new Python **virtual environment**. Although this is not
    required, it's *highly recommended*, since TruFont has lots of
    dependencies, which may (or may not) conflict with other modules
    you installed globally.
