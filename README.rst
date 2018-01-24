@@ -4,7 +4,7 @@ TruFont
 |Build Status|
 
 `TruFont <https://trufont.github.io>`__ is a font-editing application
-written with Python3, ufoLib, defcon and PyQt5.
+written with Python3, ufoLib, defcon, and PyQt5.
 
 .. image:: Lib/trufont/resources/screenshot.png
 
@@ -51,9 +51,10 @@ Detailed Installation Instructions
 
       ``python3 -m venv TRUFONT-VENV``
 
-      This creates a new ``TRUFONT-VENV`` folder. The ``bin`` subfolder 
-      (or ``Scripts`` if you are on Windows) contains a new ``python``
-      executable, and the ``pip`` installer linked to that.
+      This creates a new ``ENV_DIR`` folder (you can choose the name 
+      you want). The ``bin`` subfolder (or ``Scripts`` if you are 
+      on Windows) contains a new ``python`` executable, and the 
+      ``pip`` installer linked to that.
 
    -  Activate the newly created environment:
 
@@ -62,21 +63,22 @@ Detailed Installation Instructions
       -  Fish: ``source TRUFONT-VENV/bin/activate.fish``
 
       This temporarily adds the virtual environment's scripts folder to
-      your console's `PATH`, so you can access `python`, `pip` and
-      the `trufont` script from anywhere. Use `pip list` to see what 
+      your console's `PATH`, so you can access ``python``, ``pip`` and
+      the ``trufont`` script from anywhere. Use ``pip list`` to see what 
       you have installed.
 
    -  Run ``deactivate`` when you wish to exit the virtual environment.
       This restores the default system `PATH`.
 
 4. With the ``venv`` activated, clone the TruFont repository. You can put 
-   it whereever you like, but for this example we will just place it in 
+   it wherever you like, but for this example, we will just place it in 
    ``TRUFONT-VENV``:
    
-   ``
+   ```
    cd TRUFONT-VENV
    git clone https://github.com/trufont/trufont.git
-   ``
+   ```
+   
 5. Move into the directory you just cloned from GitHub and run the following
    command to install the requiered dependancies and TruFont:
 
