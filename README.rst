@@ -1,10 +1,16 @@
-|Build Status|
+<h1 align="center">
+  <a href="https://trufont.github.io"><img src="Lib/trufont/resources/app.png" alt="Xi Editor" width="256" height="256"/></a><br>
+  TruFont
+</h1>
 
-TruFont
-=======
+<h4 align="center">A font-editing application
+written with Python3, ufoLib, defcon and PyQt5.</h4>
 
-`TruFont <https://trufont.github.io>`__ is a font-editing application
-written with Python3, ufoLib, defcon and PyQt5.
+<p align="center">|Build Status|</p>
+
+<div align="center">
+    <img src="Lib/trufont/resources/screenshot.png" alt="TruFont screenshot"/>
+</div><br>
 
 Getting started
 ~~~~~~~~~~~~~~~
@@ -13,7 +19,7 @@ Getting started
 
    -  OS X: Install using `Homebrew <http://brew.sh/>`__:
       ``brew install python3``
-   -  Windows: Download installer from 
+   -  Windows: Download installer from
       `python.org/downloads <https://www.python.org/downloads/>`__
    -  Linux: It's usually packaged with the OS.
 
@@ -26,9 +32,9 @@ Getting started
 
       ``python3 -m venv ENV_DIR``
 
-      This creates a new ``ENV_DIR`` folder (you can choose the name 
-      you want). The ``bin`` subfolder (or ``Scripts`` if you are 
-      on Windows) contains a new ``python`` executable, and the 
+      This creates a new ``ENV_DIR`` folder (you can choose the name
+      you want). The ``bin`` subfolder (or ``Scripts`` if you are
+      on Windows) contains a new ``python`` executable, and the
       ``pip`` installer linked to that.
 
    -  Activate the newly created environment:
@@ -86,7 +92,7 @@ Here's a quick tutorial if you'd like to contribute to TruFont.
 
    Instead of copying `trufont` to your Python site-packages directory,
    this command only creates a link to the source directory inside the
-   git repository. You can then modify the code in place, or 
+   git repository. You can then modify the code in place, or
    synchronize the latest upstream changes (as in step 4) without
    having to re-install.
 
