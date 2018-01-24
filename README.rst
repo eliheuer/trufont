@@ -6,8 +6,19 @@ TruFont
 `TruFont <https://trufont.github.io>`__ is a font-editing application
 written with Python3, ufoLib, defcon and PyQt5.
 
+.. image:: Lib/trufont/resources/screenshot.png
+
 Getting started
 ~~~~~~~~~~~~~~~
+
+Quick install:
+
+To quickly install and run TruFont, open a terminal and enter the following string of commands as one line:
+```
+python3 -m venv trufont-venv && source trufont-venv/bin/activate && cd trufont-venv && git clone https://github.com/trufont/trufont.git && cd trufont && pip install --upgrade -r requirements.txt && pip install --upgrade ufolib && pip install --editable . && trufont
+```
+Detailed install:
+
 
 1. Install **Python 3.5** (or later):
 
@@ -22,14 +33,14 @@ Getting started
    dependencies, which may (or may not) conflict with other modules
    you installed globally.
 
-   -  To create a new virtual environment in ``ENV_DIR``:
+   -  To create a new virtual environment, run the following command
+      (replace ``ENV_DIR`` with any name you want):
 
       ``python3 -m venv ENV_DIR``
 
-      This creates a new ``ENV_DIR`` folder (you can choose the name 
-      you want). The ``bin`` subfolder (or ``Scripts`` if you are 
-      on Windows) contains a new ``python`` executable, and the 
-      ``pip`` installer linked to that.
+      This creates a new ``ENV_DIR`` folder. The ``bin`` subfolder 
+      (or ``Scripts`` if you are on Windows) contains a new ``python``
+      executable, and the ``pip`` installer linked to that.
 
    -  Activate the newly created environment:
 
@@ -38,16 +49,12 @@ Getting started
 
       This temporarily adds the virtual environment's scripts folder to
       your console's `PATH`, so you can access `python`, `pip` and
-      the `trufont` script from anywhere.
+      the `trufont` script from anywhere. Use `pip list` to see what 
+      you have installed.
 
    -  Run ``deactivate`` when you wish to exit the virtual environment.
       This restores the default system `PATH`.
 
-3. Install/update TruFont to the latest stable release:
-
-   ``pip install --upgrade trufont``
-
-4. Run the app as ``trufont``.
 
 Contributing
 ~~~~~~~~~~~~
