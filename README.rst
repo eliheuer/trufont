@@ -1,5 +1,6 @@
-.. image:: Lib/trufont/resources/app.ico
 
+|trufont|
+ 
 |Build Status|
 
 TruFont
@@ -130,3 +131,7 @@ Happy hacking with TruFont! :muscle:
 
 .. |Build Status| image:: https://travis-ci.org/trufont/trufont.svg?branch=master
    :target: https://travis-ci.org/trufont/trufont
+   
+.. |trufont| image:: Lib/trufont/resources/app.ico
+   :align: middle
+   :width: 32
